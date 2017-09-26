@@ -86,7 +86,7 @@ types {
     video/x-ms-wmv                        wmv;
     video/x-msvideo                       avi;
 
-    application/font-woff                 woff woff2;
+    application/font-woff2                woff2;
     application/x-font-ttf                ttc ttf;
     font/opentype                         otf;
 }
