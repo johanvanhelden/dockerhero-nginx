@@ -23,7 +23,7 @@ types {
     image/svg+xml                         svg svgz;
     image/webp                            webp;
 
-    application/font-woff                 woff woff2;
+    application/font-woff                 woff;
     application/java-archive              jar war ear;
     application/json                      json;
     application/mac-binhex40              hqx;
@@ -86,6 +86,7 @@ types {
     video/x-ms-wmv                        wmv;
     video/x-msvideo                       avi;
 
+    application/font-woff2                woff2;
     application/x-font-ttf                ttc ttf;
     font/opentype                         otf;
 }
