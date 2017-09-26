@@ -16,3 +16,9 @@ ADD ./.conf /etc/nginx/conf.d/dockerhero/core
 
 # Overwrite the default.conf with our version
 COPY ./.conf/default.conf /etc/nginx/conf.d/default.conf
+
+# Remove the old mime types
+RUN rm /etc/nginx/mime.types
+
+# Add the new mime types
+COPY ./.mime/mime.types /etc/nginx/mime.types
